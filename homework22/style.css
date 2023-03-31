@@ -1,0 +1,317 @@
+*{box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: work;
+    src: url(WorkSans-VariableFont_wght.ttf);
+    font-family: space;
+    src: url(SpaceMono-Regular.ttf);
+}
+body{
+    width: 100%;
+    height: vh;
+}
+.container{
+    width: 100%;
+    height: 1125px;
+    background-color: hsla(0, 0%, 17%, 1);
+}
+.d1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    font-family: work;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, 1);
+    padding-left: 50px;
+    text-decoration: none;
+}
+.d11{
+    margin-right: 200px;
+}
+.d12{
+    margin-right: 250px;
+}
+.b{
+    width: 152px;
+    height: 60px;
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(266, 100%, 67%, 1);
+    border-radius: 20px;
+    font-family: work;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    border: 1px solid hsla(266, 100%, 67%, 1);
+    float: right;
+}
+.i1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.d13, .d14{
+    width: 152px;
+    height: 60px;
+    position: absolute;
+    margin-left: 1000px;
+}
+.cards{
+    width: 100%;
+    height: 691px;
+    display: flex;
+    background-color: hsla(0, 0%, 17%, 1);
+}
+.card1{
+    width: 50%;
+    height: 691px;
+}
+.card2{
+    width: 670px;
+    height: 691px;
+}
+.cardimg{width: 100%;
+    height: 691px;
+}
+.h2{
+    font-family: work;
+    font-size: 51px;
+    line-height: 56.1px;
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, 1);
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.p{
+    font-family: work;
+    font-size: 22px;
+    line-height: 35.2px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 1);
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.input{
+    width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border: 1px solid hsla(60, 0%, 52%, 1);
+    font-size: 16px;
+    font-weight: 400;
+    color: hsla(0, 0%, 17%, 1);
+    line-height: 22.4px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-image: url(User.png);
+    background-position: 20px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+.input1{
+    width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border: 1px solid hsla(60, 0%, 52%, 1);
+    font-size: 16px;
+    font-weight: 400;
+    color: hsla(0, 0%, 17%, 1);
+    line-height: 22.4px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-image: url(mailbox.png);
+    background-position: 20px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+..input{
+    width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border: 1px solid hsla(60, 0%, 52%, 1);
+    font-size: 16px;
+    font-weight: 400;
+    color: hsla(0, 0%, 17%, 1);
+    line-height: 22.4px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-image: url(User.png);
+    background-position: 20px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+.input{
+    width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border: 1px solid hsla(60, 0%, 52%, 1);
+    font-size: 16px;
+    font-weight: 400;
+    color: hsla(0, 0%, 17%, 1);
+    line-height: 22.4px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-image: url(User.png);
+    background-position: 20px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+.input2{
+    width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border: 1px solid hsla(60, 0%, 52%, 1);
+    font-size: 16px;
+    font-weight: 400;
+    color: hsla(0, 0%, 17%, 1);
+    line-height: 22.4px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-image: url(2.png);
+    background-position: 20px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+.b1{
+    width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    background-color: hsla(266, 100%, 67%, 1);
+    border: 1px solid hsla(266, 100%, 67%, 1);
+    font-size: 16px;
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, 1);
+    line-height: 22.4px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.d3{
+    width: 100%;
+    height: 260px;
+    background-color: hsla(0, 0%, 17%, 1);
+    display: flex;
+    justify-content: space-around;
+}
+.d31{
+    width: 250px;
+    height: 260px;
+}
+.d32{
+    width: 150px;
+    height: 260px;
+
+}
+.d33{
+    width: 420px;
+    height: 260px;
+}
+.d4{
+    width: 1090px;
+    height: 74px;
+    border-top: 1px solid hsla(60, 0%, 52%, 1);
+    margin-left: 80px;
+
+}
+.i3{
+    padding-top: 20px;
+}
+.p31{
+    font-family: work;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    color: hsla(0, 0%, 80%, 1);
+    padding-top: 20px;
+}
+.i2{
+    padding-top: 20px;
+}
+.h5{
+    font-family: space;
+    font-size: 22px;
+    line-height: 35.2px;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 1);
+    padding-top: 20px;
+}
+.p32{
+    font-family: work;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    color: hsla(0, 0%, 80%, 1);
+    padding-top: 20px;
+}
+.h51{
+    font-family: space;
+    font-size: 22px;
+    line-height: 35.2px;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 1);
+    padding-top: 20px;
+}
+.p33{
+    font-family: work;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    color: hsla(0, 0%, 80%, 1);
+    padding-top: 20px;
+}
+.d34{
+    width: 310px;
+    height: 60px;
+    position: absolute;
+}
+.d35{
+    width: 310px;
+    height: 60px;
+    position: absolute;
+    right: 20px;
+}
+.f1{
+    background-color: hsla(0, 0%, 100%, 1);
+    font-family: work;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    color: hsla(0, 0%, 17%, 1);
+    width: 290px;
+    height: 60px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid hsla(0, 0%, 100%, 1);
+}
+.f2{
+    font-family: work;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, 1);
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid hsla(266, 100%, 67%, 1);
+    background-color: hsla(266, 100%, 67%, 1);
+}
+.p41{
+    font-family: work;
+    font-size: 12px;
+    line-height: 13.2px;
+    font-weight: 400;
+    color: hsla(0, 0%, 80%, 1);
+    padding-top: 25px;
+}
